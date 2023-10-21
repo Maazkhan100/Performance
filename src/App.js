@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
+import CustomButton from './Components/Custom-Button/Custom-button.component';
+import MainDashboard from './Components/Main-Dashboard/Main-dashboard.component';
+import DynamicTable from './Components/DynamicTable/DynamicTable.component';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CustomButton>Connect</CustomButton>
+      <MainDashboard></MainDashboard>
+      <DynamicTable></DynamicTable>
     </div>
   );
 }
