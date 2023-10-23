@@ -38,7 +38,7 @@ const DynamicTable = () => {
     return (
         <div className="card-Dynamic">
             <h4> Performance metric table </h4>
-            <table className="table-content">
+            <table>
                 <thead>
                     <tr>{ThData()}</tr>
                 </thead>
