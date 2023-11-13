@@ -59,7 +59,7 @@ const MainDashboard = () => {
             <select value={ metric } onChange={ handleMetricChange }>
                 <option value="latency">Latency</option>
                 <option value="throughput">Throughput</option>
-                <option value="both">Both</option>
+                <option value="both">All</option>
             </select><br></br><br></br>
             {(metric === "throughput" || metric === "both") && (
                 <div>
@@ -71,7 +71,7 @@ const MainDashboard = () => {
                     </select><br></br><br></br>
                 </div>
             )}
-            <label>Select smart contract function: </label>
+            <label>Default smart contracts: </label>
             <select value={ selectedSmartContract } onChange={ handleContractChange }>
                 <option value="create">Create User</option>
                 <option value="issue">Issue money</option>
