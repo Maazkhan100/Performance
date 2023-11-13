@@ -5,11 +5,7 @@ table, th, td {
 }
 
 .card-Dynamic {
-<<<<<<< HEAD
     border-radius: 10px;
-=======
-    border-radius: 12px;
->>>>>>> 1d4d2aa29de2ac6d6d8aea26e469d9e61707fef3
     background-color: #6c707054;
     padding: 20px;
     width: calc(50% - 15px);
